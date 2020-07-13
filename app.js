@@ -86,13 +86,13 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       cards[optionOneId].setAttribute('src', 'images/cardface.png')
       cards[optionTwoId].setAttribute('src', 'images/cardface.png')
-      alert('Sorry, try again')
+
     }
     cardsChosen = []
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.length === cardArray.length / 2) {
-      resultDisplay.textContent = 'Congratulation! You Won'
+      resultDisplay.textContent = 'Congratulation! Found Them All'
     }
   }
 

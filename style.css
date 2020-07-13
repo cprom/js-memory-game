@@ -1,5 +1,7 @@
 body {
   margin: 0;
+   font-family: 'Roboto',
+   sans-serif;
 }
 
 h3{
@@ -11,10 +13,26 @@ h3{
   height: 500px;
   text-align: center;
   margin: auto;
+  background: lightgrey;
+  padding-top: 8px;
 }
 
 img {
   width: 100px;
   height: 100px;
   margin: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+img:hover {
+  border: 5px solid rgb(5, 212, 5);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
 }
