@@ -109,10 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-
-
-
-
   createBoard()
 
 
@@ -124,3 +120,4 @@ function refreshPage() {
   location.reload(true)
 
 }
+

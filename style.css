@@ -9,7 +9,7 @@ h3{
 }
 
 .grid {
-  width: 400px;
+  max-width: 400px;
   height: 500px;
   text-align: center;
   margin: auto;
@@ -72,6 +72,6 @@ button:hover {
 
 @media only screen and (max-device-width: 480px) {
   .container {
-    width: 100%;
+    width: 70%;
   }
 }
