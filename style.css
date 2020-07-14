@@ -1,11 +1,18 @@
 body {
   margin: 0;
-   font-family: 'Roboto',
-   sans-serif;
+   font-family: 'Vampiro One';
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
 }
 
 h3{
   text-align: center;
+  font-size: 30px;
+  margin-top: 4px;
 }
 
 .grid {
@@ -15,6 +22,11 @@ h3{
   margin: auto;
   background: lightgrey;
   padding-top: 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 img {
@@ -49,9 +61,13 @@ img:hover {
 }
 
 button {
+  font-family: 'Vampiro One';
+  font-size: larger;
    text-align: center;
    background-color: orange;
+   margin-top: 20px;
    height: 35px;
+   width: 200px;
    font-weight: 700;
    border: none;
    border-radius:5px ;
@@ -69,6 +85,13 @@ button:hover {
  -ms-transition: .5s;
  -o-transition: .5s;
 }
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
 
 @media only screen and (max-device-width: 480px) {
   .container {
