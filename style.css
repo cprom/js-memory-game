@@ -1,6 +1,7 @@
 body {
   margin: 0;
    font-family: 'Vampiro One';
+   max-height: 800px;
 }
 
 h1 {
